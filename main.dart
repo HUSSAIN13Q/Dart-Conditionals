@@ -52,20 +52,20 @@ if(i%3==0 && i%5==0){
 //and variables (x, y, operation).
 var x=4;
 var y=1;
-var operation=3;
+var operation="+";
 var output=0;
 
 switch (operation) {
-  case 1:
+  case "+":
    output=x+y;
    print(output);
- case 2:
+ case "-":
    output=x-y;
    print( output);
-  case 3:
+  case "*":
     output=x*y;
    print(output);
- case 4:
+ case "/":
    output=x~/y;
    print(output);
 break;   
